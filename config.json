@@ -1,0 +1,23 @@
+{
+    "general":{
+        "broker": "cnm-ih-na.azure-devices.net",
+        "port": 8883,
+        "client_id": "urn:dev:ops:000000-EMA-prod-35e2e86e0226777586316eb5",
+        "clean_session": false,
+        "keep_alive_sec": 30
+    },
+    "credentials":{
+        "user_name": "cnm-ih-na.azure-devices.net/urn:dev:ops:000000-EMA-prod-35e2e86e0226777586316eb5",
+        "password":  "schneider-eco-structure-token"    
+    },
+    "ssl/tls":{
+		"enable_tls": true,  
+		"tls_insecure_set": false
+    },
+     "things-pro":{
+		"asset_name": "TAILB1015962",
+		"mx_api_token": "$2b$10$rqI5mRWxPspcUbh.1aJWF.mK23eJI52UCSlPyjgXuhbVA4wiAdln2",
+		"device_name": "ModSlave-Device",
+		"system_status": true
+    }
+}
