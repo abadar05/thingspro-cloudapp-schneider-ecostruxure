@@ -166,8 +166,16 @@ if (cfg["ssl/tls"]["enable_tls"]) == True :
 """
 Connect to broker
 """
-ret=client.connect(host= cfg["general"]["broker"], 
-                    port= cfg["general"]["port"], 
+
+broker_url = (cfg["general"]["broker"])
+modified_url = broker_url.split("//")[1]
+
+url = modified_url.split(":")[0] 
+
+port = modified_url.split(":")[1] 
+
+ret=client.connect(host= url, 
+                    port= port, 
                     keepalive= cfg["general"]["keep_alive_sec"])
 
 print ("Connecting to broker: {}".format(cfg["general"]["broker"]))
