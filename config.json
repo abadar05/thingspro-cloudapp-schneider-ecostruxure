@@ -1,7 +1,6 @@
 {
     "general":{
-        "broker": "cnm-ih-na.azure-devices.net",
-        "port": 8883,
+        "broker": "mqtts://cnm-ih-na.azure-devices.net:8883",
         "client_id": "urn:dev:ops:000000-EMA-prod-35e2e86e0226777586316eb5",
         "clean_session": false,
         "keep_alive_sec": 30
