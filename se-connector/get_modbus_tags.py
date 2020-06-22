@@ -27,8 +27,10 @@ def getModbusTags():
         'https://localhost/api/v1/mxc/equipments',
         headers=headers,
         verify=False)
-    
+        
+    print ("Return code :", r.status_code)
     data = r.json()
+   
     
     """
     Parser
