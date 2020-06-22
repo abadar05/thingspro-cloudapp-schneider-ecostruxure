@@ -171,8 +171,10 @@ broker_url = (cfg["general"]["broker"])
 modified_url = broker_url.split("//")[1]
 
 url = modified_url.split(":")[0] 
-
 port = modified_url.split(":")[1] 
+
+# Convert from unicode into integer
+port = int(str(port))
 
 ret=client.connect(host= url, 
                     port= port, 
