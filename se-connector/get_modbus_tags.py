@@ -13,12 +13,13 @@ def get_mx_api_token():
     print "mx-api-token :", token
     return token
 
+
 def getModbusTags():
     
     """
     Configuration
     """
-    with open("config.json") as json_data_file:
+    with open("/home/moxa/config.json") as json_data_file:
         cfg = json.load(json_data_file)
         
     """
