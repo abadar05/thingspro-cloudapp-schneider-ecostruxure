@@ -1,22 +1,21 @@
 {
     "general":{
-        "broker": "mqtts://cnm-ih-na.azure-devices.net:8883",
-        "client_id": "urn:dev:ops:000000-EMA-prod-a2096a57e3c7bf2e0aa1809b",
+        "broker": "Broker url of Your Machine",
+        "client_id": "Client ID of Your Machine",
         "clean_session": false,
         "keep_alive_sec": 30
     },
     "credentials":{
-        "user_name": "cnm-ih-na.azure-devices.net/urn:dev:ops:000000-EMA-prod-a2096a57e3c7bf2e0aa1809b",
-        "password":  "schneider-eco-structure-token"    
+        "user_name": "Username of Your Machine",
+        "password":  "Token of Your Machine"    
     },
     "ssl/tls":{
 		"enable_tls": true,  
 		"tls_insecure_set": false
     },
      "things-pro":{
-		"asset_name": "TAILB1015963",
-		"mx_api_token": "$2b$10$SE09Yv5NZGFzONuBDtbYZ.46928ZQdaxuC65r8HWkmix0RJpub.hy",
-		"device_name": "ModSlave-Device",
+		"asset_name": "Serial Number of Moxa Device",
+		"device_name": "Modbus Slave Device Name",
 		"system_status": true
     }
 }
