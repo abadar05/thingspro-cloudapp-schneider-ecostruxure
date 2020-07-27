@@ -1,4 +1,13 @@
-#!/usr/bin/env python
+#!/usr/bin/env python 2
+"""
+Publish Modbus Data to Schneider EcoStruxure Cloud"
+"""
+
+__author__ = "Amjad B."
+__license__ = "MIT"
+__version__ = '1.3'
+__status__ = "beta"
+
 import time
 import json
 import ssl
@@ -210,4 +219,8 @@ while(True):
         except Empty as e:
             time.sleep(1)
             continue
+    else:
+        print("Disconnected, try reconnect in 30 seconds ...")
+        time.sleep(30)
+        client.reconnect()
         
