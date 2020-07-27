@@ -25,7 +25,7 @@ def getModbusTags():
     """
     Header
     """    
-    headers = {"mx-api-token": cfg["things-pro"]["mx_api_token"]}   
+    headers = {"mx-api-token": token}   
     
     """
     GET 
