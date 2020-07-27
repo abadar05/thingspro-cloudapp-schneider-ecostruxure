@@ -95,7 +95,7 @@ def on_log(client, userdata, level, buf):
 """
 Configuration 
 """
-with open("config.json") as json_data_file:
+with open("/home/moxa/config.json") as json_data_file:
     cfg = json.load(json_data_file)
 
 
