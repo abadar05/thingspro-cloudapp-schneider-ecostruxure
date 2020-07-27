@@ -21,7 +21,12 @@ def getModbusTags():
     """
     with open("/home/moxa/config.json") as json_data_file:
         cfg = json.load(json_data_file)
-        
+    
+    """
+    Get local API Token
+    """
+    token = get_mx_api_token()
+    
     """
     Header
     """    
