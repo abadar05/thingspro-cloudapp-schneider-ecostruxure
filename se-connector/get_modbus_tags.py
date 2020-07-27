@@ -7,6 +7,12 @@ import json
 tagList = []
 equipmentNameList = []
 
+def get_mx_api_token():
+    f = open('/etc/mx-api-token', 'r')
+    token = f.readline()
+    print "mx-api-token :", token
+    return token
+
 def getModbusTags():
     
     """
