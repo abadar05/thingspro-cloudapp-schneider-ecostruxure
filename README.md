@@ -13,3 +13,8 @@ Getting started:
 ```
 https://www.moxa.com/en/products/industrial-computing/system-software/thingspro-2#resources
 ```
+## Download TPG
+   ![](media/tpg-download-website.png)
+
+## Installation Manual
+   ![](media/tpg-installation-manual.png)
