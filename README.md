@@ -35,3 +35,5 @@ https://www.se.com/ww/en/work/services/field-services/industrial-automation/oem/
    
 ### Connect Your Machine
    ![](media/3-connect-your-machine.png)
+
+## 4. Modify the config.json file and copy to gateway /home/moxa via File transfer e.g. WinSCP
