@@ -20,3 +20,10 @@ https://www.moxa.com/en/products/industrial-computing/system-software/thingspro-
    ![](media/tpg-installation-manual.png)
 
 ## 2. Configure Modbus Device Data Template and Connection to your Modbus Slave
+
+      Follow user manual to configure modbus settings for data acquisistion on page 42
+      
+## 3. Register your Machine on SE Machine Advisor and get the broker configuration
+```
+https://www.se.com/ww/en/work/services/field-services/industrial-automation/oem/machine-advisor.jsp
+```
