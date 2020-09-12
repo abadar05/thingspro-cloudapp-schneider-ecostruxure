@@ -1,4 +1,5 @@
-# moxaeuiiot-connector-se-machine-advisor
+# Moxa Connector Schneider EcoStruxure Machine Advisor
+
 Connecting Modbus devices using Moxa UC-2100 low cost IIoT gateway to Schneider EcoStruxure Machine Advisor
 
 Getting started:
