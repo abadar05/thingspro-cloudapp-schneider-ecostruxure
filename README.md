@@ -13,10 +13,10 @@ Getting started:
 ```
 https://www.moxa.com/en/products/industrial-computing/system-software/thingspro-2#resources
 ```
-## Download TPG
+### Download TPG
    ![](media/tpg-download-website.png)
 
-## Installation Manual
+### Installation Manual
    ![](media/tpg-installation-manual.png)
 
 ## 2. Configure Modbus Device Data Template and Connection to your Modbus Slave
@@ -27,11 +27,11 @@ https://www.moxa.com/en/products/industrial-computing/system-software/thingspro-
 ```
 https://www.se.com/ww/en/work/services/field-services/industrial-automation/oem/machine-advisor.jsp
 ```
-## Register Machine
+### Register Machine
    ![](media/1-register-machine.png)
    
-## Register New Machine
+### Register New Machine
    ![](media/2-register-new-machine.png)
    
-## Connect Your Machine
+### Connect Your Machine
    ![](media/3-connect-your-machine.png)
