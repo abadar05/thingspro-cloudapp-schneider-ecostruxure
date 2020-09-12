@@ -27,3 +27,11 @@ https://www.moxa.com/en/products/industrial-computing/system-software/thingspro-
 ```
 https://www.se.com/ww/en/work/services/field-services/industrial-automation/oem/machine-advisor.jsp
 ```
+## Register Machine
+   ![](media/1-register-machine.png)
+   
+## Register New Machine
+   ![](media/2-register-new-machine.png)
+   
+## Connect Your Machine
+   ![](media/3-connect-your-machine.png)
