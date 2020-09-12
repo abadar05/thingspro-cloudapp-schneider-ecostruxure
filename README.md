@@ -3,10 +3,8 @@ Connecting Modbus devices using Moxa UC-2100 low cost IIoT gateway to Schneider 
 
 Getting started:
 
-1. Download and Install ThingsPro Gateway software v2.5.2
-2. Configure Modbus Data Acquisition using ThingsPro Gateway
-3. Get RESTful API Token using ThingsPro User Interface
-4. Register your Machine on SE Machine Advisor and get the broker configuration
-5. Modify config.json file with your broker configuration
-6. Package the user program in tar.gz format
-7. Upload the Compressed folder to the ThingsPro Gateway 
+1. Download and Install latest release ThingsPro Gateway software v2.6
+2. Configure Modbus Data Template and Connection via ThingsPro Gateway web GUI
+3. Register your Machine on SE Machine Advisor and get the broker configuration
+4. Modify the config.json file and copy to gateway /home/moxa via File transfer e.g. WinSCP
+5. Save EcoStruxure file to your laptop and upload it via ThingsPro Gateway web GUI
