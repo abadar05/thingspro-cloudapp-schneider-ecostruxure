@@ -1,21 +1,22 @@
 {
     "general":{
-        "broker": "Broker url of Your Machine",
-        "client_id": "Client ID of Your Machine",
+        "broker": "Enter schneider machine advisor broker url",
+        "client_id": "Enter schneider machine advisor client ID ",
         "clean_session": false,
-        "keep_alive_sec": 30
+        "keep_alive_sec": 15,
+		"publish_interval":5 
     },
     "credentials":{
-        "user_name": "Username of Your Machine",
-        "password":  "Token of Your Machine"    
+        "user_name": "Enter schneider machine advisor user name",
+        "password":  "Enter schneider machine advisor token"    
     },
     "ssl/tls":{
 		"enable_tls": true,  
 		"tls_insecure_set": false
     },
      "things-pro":{
-		"asset_name": "Serial Number of Moxa Device",
-		"device_name": "Modbus Slave Device Name",
+		"asset_name": "Enter asset name, serial number of Moxa gateway",
+		"device_name": "Enter Modbus device name that you have configured on thingsPro GW",
 		"system_status": true
     }
 }
