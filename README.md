@@ -8,3 +8,8 @@ Getting started:
 3. Register your Machine on SE Machine Advisor and get the broker configuration
 4. Modify the config.json file and copy to gateway /home/moxa via File transfer e.g. WinSCP
 5. Save EcoStruxure file to your laptop and upload it via ThingsPro Gateway web GUI
+
+## Download and Install ThingsPro Gateway v2.6 
+```
+https://www.moxa.com/en/products/industrial-computing/system-software/thingspro-2#resources
+```
