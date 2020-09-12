@@ -1,8 +1,0 @@
-#!/bin/bash
-
-while true;
-do
-    ./sub-mbus-and-publish.py
-    sleep 60
-done
-
