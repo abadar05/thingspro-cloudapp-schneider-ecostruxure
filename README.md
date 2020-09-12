@@ -45,10 +45,14 @@ https://www.se.com/ww/en/work/services/field-services/industrial-automation/oem/
 ## 5. Save EcoStruxure file to your laptop and upload it via ThingsPro Gateway web GUI
    ![](media/upload-ecostruxure-tar-file.png)
    
-   ### User program has been added 
+   ### Verifying the user program
+   
+   When user program has been added successfully you will see the following output as shown below. 
    
    ![](media/user-program-has-been-added.png)
-  
+   
+   
+   
 ## 6. Verifying data on Machine Advisor
    ![](media/verifying-data-on-machine-advisor.png)
    
