@@ -60,7 +60,7 @@ class MqttBaseCLass():
         """
        
         if not self._ext_conf:
-            self.log_error('Empty configuration!')
+            logger.error('Empty configuration!')
             return False          
         
         # continue here 
